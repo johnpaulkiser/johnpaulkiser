@@ -1,0 +1,148 @@
+h1 {
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+}
+h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+}
+
+
+a {
+    text-decoration: none;
+    color : rgb(67, 136, 163);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#nav {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+header {
+    margin: 1em;
+    
+    text-align: center;
+    background-color: rgb(44, 48, 48);
+    color: #ccc;
+    padding: 2em;
+    border-radius: 7px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+        ;    
+}
+
+
+/* #profile-pic {
+    display: none;
+    margin: 1em;
+} */
+
+article {
+    padding: 2em;
+}
+
+button {
+    float: right;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background: none;
+    font-size: .75em;
+    border-color: slategrey;
+    font-weight: 500;
+    
+}
+
+.location {
+    font-style: italic;
+}
+/* button:hover {
+    background: rgba(93, 128, 128, 0.447);
+    color: white;
+    border: none;
+} */
+article:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 80%;
+    padding-top: 60px; 
+    border-bottom: 2px solid slategrey;
+}
+
+#profile-pic {
+    display: none;
+}
+
+.picture {
+    border: 3px solid #222;
+    height: 250px;
+    width: 250px;
+}
+.social-icons {
+    height: 28px;
+    width: 28px;
+}
+
+.date {
+    font-weight: 200;
+    color: grey;
+}
+body {
+    display: grid;
+    grid:
+        'header' auto
+        'nav' auto
+        'main' 1fr
+        'footer' auto
+        / 1fr;
+}
+
+@media (min-width: 45em){
+    #profile-pic {
+        display: block;
+        float: left;
+    }
+}
+
+
+@media (min-width: 95em){
+
+    header { 
+        position: fixed;
+        left: 2em;
+    }
+    li {
+        display: block;
+        padding: 1em;
+        
+    }
+    #profile-pic {
+        display: block;
+        float: none;
+    }
+    body{
+      grid:
+        '. main .' auto
+        '. main .' 1fr
+        'footer footer footer' auto
+        / 1fr minmax(300px, 900px) 2fr;
+        
+    }
+}
+
+header {grid-area: header;}
+#placeholder {grid-area: placeholder;}
+main {grid-area: main;}
+footer {grid-area: footer;}
