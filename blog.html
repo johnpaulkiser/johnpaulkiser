@@ -1,0 +1,21 @@
+---
+title: Captain's Log
+---
+<!DOCTYPE html>
+
+<html lang="en">
+
+  {% include head.html %}
+  <body>
+
+    {% include profile.html %}
+    <main>
+      <div id="content">
+        {% for post in site.posts %}
+            <h3><a href="{{site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        {% endfor %}
+      </div>
+    </main>
+  </body>
+
+</html>

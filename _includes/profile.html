@@ -1,11 +1,12 @@
 <header>
     <div id="profile-pic">
-        <img class="picture" src="static/img/headshot.jpg" alt="profile picture">
+        <img class="picture" src="{{ site.baseurl }}/static/img/headshot.jpg" alt="profile picture">
     </div>
     
     <div id="profile-summary">
         <h1 class="name">john paul kiser</h1>
-        <h4 class="location">Greenville, SC</h4>
+        <h4 class="location">Software Developer from Greenville, SC</h4>
+        <a href="/johnpaulkiser/about" class="block inline accent">About Me</a>
         <h5><a href="mailto:johnpaulkiser@gmail.com">johnpaulkiser@gmail.com</a></h5>
         <a href="https://www.github.com/johnpaulkiser">
             <img src="https://icongr.am/octicons/mark-github.svg?color=ffffff" alt="github" class="social-icons"> 
@@ -16,7 +17,7 @@
     </div>
     
     <ul id="nav">
-        <li class="block"><a href="#">logs</a></li>
+        <li class="block"><a href="{{ site.baseurl }}/blog.html">logs</a></li>
         <li class="block"><a href="#">projects</a></li>
         <li class="block"><a href="#">resumé</a></li>
     </ul>

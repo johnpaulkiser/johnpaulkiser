@@ -3,12 +3,12 @@
 <article>
     <div class="article-heading">
         <span class="date">{{post.date | date_to_string }}</span>
-        <h2 class="article-title">{{ post.title }}}</h2>
+        <h2 class="article-title">{{ post.title }}</h2>
     </div>
     <div class="article-content">
         <p>{{ post.content |  truncatewords:200}}</p>
     </div>
-    <form action="{{ post.url }}" method="get" target="_blank">
+    <form action="{{ site.baseurl }}{{ post.url }}" method="get" target="_blank">
         <button type="submit" class="block accent">continue reading...</button>
      </form>
 </article>
