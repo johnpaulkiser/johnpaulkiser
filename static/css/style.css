@@ -21,8 +21,15 @@ a:hover {
 
 #nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-left: 0;
+}
+
+#nav>li{
+    justify-content: center;
+    display: flex; 
+    flex-basis: calc(50% - 60px);
 }
 
 header {
