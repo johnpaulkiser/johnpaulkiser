@@ -8,7 +8,6 @@ h2 {
     font-weight: 300;
 }
 
-
 a {
     text-decoration: none;
     color : rgb(67, 136, 163);
@@ -18,7 +17,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
 #nav {
     display: flex;
     flex-wrap: wrap;
@@ -26,15 +24,12 @@ a:hover {
     padding-left: 0;
 }
 
-
-
 header {
     margin: 1em;
-    
     text-align: center;
     background-color: rgb(44, 48, 48);
     color: #ccc;
-    padding: 2em;
+    padding: 2em 2em 0 2em;
     border-radius: 7px;
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -45,7 +40,6 @@ header {
         0 100px 80px rgba(0, 0, 0, 0.12)
         ;    
 }
-
 
 article {
     padding: 2em;
@@ -65,11 +59,7 @@ button {
 .location {
     font-style: italic;
 }
-/* button:hover {
-    background: rgba(93, 128, 128, 0.447);
-    color: white;
-    border: none;
-} */
+
 article:after {
     content: ""; 
     display: block; 
@@ -126,6 +116,7 @@ body {
     header { 
         position: fixed;
         left: 2em;
+        padding: 2em .5em 0 .5em; 
     }
     #profile-pic {
         display: block;
