@@ -41,6 +41,10 @@ header {
         ;    
 }
 
+header ul {
+    list-style-type: none;
+}
+
 article {
     padding: 2em;
 }
@@ -110,13 +114,13 @@ body {
     #nav>li{
         justify-content: center;
         display: flex; 
-        flex-basis: calc(50% - 60px);
+        //flex-basis: calc(50% - 60px);
     }
 
     header { 
         position: fixed;
         left: 2em;
-        padding: 2em .5em 0 .5em; 
+        padding: 2em 1.7em 0 1.7em; 
     }
     #profile-pic {
         display: block;
