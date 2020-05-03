@@ -8,8 +8,8 @@
     <div class="article-content">
         <p>{{ post.content |  truncatewords:200}}</p>
     </div>
-    <form action="{{ site.baseurl }}{{ post.url }}" method="get" target="_blank">
-        <button type="submit" class="block accent">continue reading...</button>
-     </form>
+    <div class="button-next">
+      <a href="{{ site.baseurl }}{{ post.url }}"<button type="submit" class="block accent">continue reading...</button></a>
+    </div>
 </article>
 {% endfor %}

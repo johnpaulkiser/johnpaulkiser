@@ -18,9 +18,9 @@
                 <p>{{ page.content }}</p>
             </div>
             {% if page.previous.url %}
-            <form action="{{ site.baseurl }}{{ page.previous.url }}" method="get" target="_blank">
-                <button type="submit" class="block accent">Read Next</button>
-            </form>
+            <div class="button-next">
+              <a href="{{ site.baseurl }}{{ page.previous.url }}"<button type="submit" class="block accent">Read Next</button></a>
+            </div>
             {% endif %}
         </article>
       </div>
