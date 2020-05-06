@@ -1,0 +1,14 @@
+
+{% for project in site.projects %}
+<article>
+    <div class="article-heading">
+        <span class="date">{{project..date | date_to_string }}</span>
+        <h2 class="article-title">{{ project.title }}</h2>
+    </div>
+    <div class="article-content">
+        <p>{{ project.content |  truncatewords:200}}</p>
+    </div>
+    <div class="button-next">Site</div>
+    <div class="button-next">Github</div>
+</article>
+{% endfor %}
