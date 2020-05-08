@@ -1,14 +1,20 @@
 
 {% for project in site.projects %}
 <article>
-    <div class="article-heading">
-        <span class="date">{{project..date | date_to_string }}</span>
-        <h2 class="article-title">{{ project.title }}</h2>
-    </div>
-    <div class="article-content">
-        <p>{{ project.content |  truncatewords:200}}</p>
-    </div>
-    <div class="button-next">Site</div>
-    <div class="button-next">Github</div>
+  <div class="article-heading">
+    <span class="date">{{project..date | date_to_string }}</span>
+    <h2 class="article-title">{{ project.title }} 
+        {% if project.proj_url %}
+          <a href="{{ project.proj_url }}"><img src="https://icongr.am/clarity/link.svg?color=ffffff" alt="site link" class="social-icons"></a>
+        {% endif %}
+        {% if project.gh_url %}
+          <a href="{{ project.gh_url }}"i><img src="https://icongr.am/octicons/mark-github.svg?color=ffffff" alt="github" class="social-icons"> </a>
+        {% endif %}
+    </h2>
+  </div>
+  <div class="article-content">
+    <p>{{ project.content }}</p>
+  </div>
 </article>
+<div class="line"></div>
 {% endfor %}

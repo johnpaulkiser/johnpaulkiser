@@ -31,6 +31,9 @@ github_username:  johnpaulkiser
 plugins:
   - jekyll-feed
 
+collections:
+    projects:
+        outputs: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
