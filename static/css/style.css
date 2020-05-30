@@ -81,6 +81,7 @@ button {
     margin: 0 auto; 
     width: 80%;
     padding-top: 60px; 
+    margin-bottom: 30px; 
     border-bottom: 2px solid slategrey;
 }
 

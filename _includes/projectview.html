@@ -1,5 +1,5 @@
 
-{% for project in site.projects %}
+{% for project in site.projects reversed %}
 <article>
   <div class="article-heading">
     <span class="date">{{project..date | date_to_string }}</span>
