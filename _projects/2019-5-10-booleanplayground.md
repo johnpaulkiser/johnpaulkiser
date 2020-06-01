@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Boolean Playground"
-date:   2019-10-23 
+date:   2019-5-10 
 gh_url: "https://github.com/johnpaulkiser/booleanplayground"
 proj_url: "https://www.booleanplayground.com/"
 
