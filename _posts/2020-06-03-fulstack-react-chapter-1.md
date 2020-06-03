@@ -10,7 +10,7 @@ _Below I've summarized chapter 1 through my note taking process and plan to do s
 
 _I'm implementing the projects in each chapter without reference to their supplied code. You can checkout that mess [here.](https://github.com/johnpaulkiser/fullstack-react)_
 
------
+---
 
 ## Chapter 1.
  * Components are ES6 classes that extend React.Component
@@ -31,7 +31,7 @@ const HelloWorld = React.createClass({
 })
 ```
 
------
+---
 
 * Use JSX for markup - html-like syntax, _not required in React_
 
@@ -49,7 +49,7 @@ _stop using for loops you java twit, JS is all about map, filter, reduce_
     - _must find out more about this_
 
 ### How to deal with interaction?
------
+---
 * Functions can be passed down to children as props.
     - When a child needs to let a parent know that an event was triggered the child should call the function.
 
@@ -69,7 +69,7 @@ class Product extends React.Component {
 ### How to handle state?
 _one of the benefits of React is that a change to state automatically re-renders for us, however, this means we must handle state the React way_
 
------
+---
 
 * use `this.state` object to manage a components state.
     - private to the individual component
