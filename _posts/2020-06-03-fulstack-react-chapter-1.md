@@ -30,7 +30,9 @@ const HelloWorld = React.createClass({
     render() { return(<p>Hello, world!</p>) }
 })
 ```
----
+
+-----
+
 * Use JSX for markup - html-like syntax, _not required in React_
 
 * React uses a virtual DOM??
