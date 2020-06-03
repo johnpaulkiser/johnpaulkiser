@@ -66,6 +66,12 @@ button {
    
 }
 
+pre, code {
+    white-space: pre-wrap;
+}
+
+
+
 .button-next {
     float: right;
     display: block;

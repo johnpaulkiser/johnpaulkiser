@@ -65,7 +65,6 @@ class Product extends React.Component {
     this.handleUpVote = this.handleUpVote.bind(this);
 }
 ```
-
 ### How to handle state?
 _one of the benefits of React is that a change to state automatically re-renders for us, however, this means we must handle state the React way_
 
