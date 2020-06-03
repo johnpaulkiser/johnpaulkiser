@@ -68,6 +68,7 @@ class Product extends React.Component {
 
 #### How to handle state?
 _one of the benefits of React is that a change to state automatically re-renders for us, however, this means we must handle state the React way_
+
 -----
 
 * use `this.state` object to manage a components state.
