@@ -4,11 +4,11 @@ title:  "Fullstack React Ch. 1 Notes"
 date:   2020-06-03
 ---
 
-_**Editorial:** The battle is lost. I've succumbed. I've put off adopting a front-end javascript framework for as long as possible in favor of mastering the fundamentals, in which I have come no where close. I stumbled upon the book (Fullstack React, The complete guide to ReactJS & Friends)[https://www.newline.co/fullstack-react] and gave into the vaporwave aesthetic displayed on the front cover._
+_**Editorial:** The battle is lost. I've succumbed. I've put off adopting a front-end javascript framework for as long as possible in favor of mastering the fundamentals, in which I have come no where close. I stumbled upon the book_ (Fullstack React, The complete guide to ReactJS & Friends)[https://www.newline.co/fullstack-react] _and gave into the vaporwave aesthetic displayed on the front cover._
 
 _Below I've summarized chapter 1 through my note taking process and plan to do so for the 1st part of the book. Although the book doesn't number their chapters I've taken the liberty to do so here._
 
-_I'm implementing the projects in each chapter without reference to their supplied code. You can checkout that mess (here)[https://github.com/johnpaulkiser/fullstack-react]._
+_I'm implementing the projects in each chapter without reference to their supplied code. You can checkout that mess_ (here.)[https://github.com/johnpaulkiser/fullstack-react]._
 
 -----
 
@@ -52,7 +52,7 @@ _stop using for loops you java twit, JS is all about map, filter, reduce_
     - When a child needs to let a parent know that an event was triggered the child should call the function.
 
     
-> A Note about `this`: React binds `this` in `render()`, and other React Methods, to refer to the component, while `this` outside of `render` is null
+> A Note about `this`: React binds `this` in `render()`, and other builtin React methods to refer to the component, while `this` outside of `render` is null
 
 * To get `this` to refernce the component while outside of `render` we have to manually bind our custom written functions in the constructor.
 
