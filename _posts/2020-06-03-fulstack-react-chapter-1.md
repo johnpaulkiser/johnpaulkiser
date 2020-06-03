@@ -6,7 +6,7 @@ date:   2020-06-03
 
 _**Editorial:** The battle is lost. I've succumbed. I've put off adopting a front-end javascript framework for as long as possible in favor of mastering the fundamentals, in which I have come no where close. I stumbled upon the book [Fullstack React, The complete guide to ReactJS & Friends](https://www.newline.co/fullstack-react) and gave into the vaporwave aesthetic displayed on the front cover._
 
-_Below I've summarized chapter 1 through my note taking process and plan to do so for the 1st part of the book. Although the book doesn't number their chapters I've taken the liberty to do so here._
+_Below I've summarized chapter 1 through my note taking process and plan to do so for the first part of the book. Although the book doesn't number their chapters I've taken the liberty to do so here._
 
 _I'm implementing the projects in each chapter without reference to their supplied code. You can checkout that mess [here.](https://github.com/johnpaulkiser/fullstack-react)_
 
@@ -17,7 +17,7 @@ _I'm implementing the projects in each chapter without reference to their suppli
     - Must have a render() method. only requirement
     - Whatever render() returns gets rendered to the page
  
-##### 2 ways to declare React components
+#### 2 ways to declare React components
 1. ES6 class 
 ```js 
 class HelloWorld extends React.Component {
@@ -30,7 +30,7 @@ const HelloWorld = React.createClass({
     render() { return(<p>Hello, world!</p>) }
 })
 ```
-
+---
 * Use JSX for markup - html-like syntax, _not required in React_
 
 * React uses a virtual DOM??
