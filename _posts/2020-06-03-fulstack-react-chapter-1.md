@@ -12,7 +12,7 @@ _I'm implementing the projects in each chapter without reference to their suppli
 
 -----
 
-### Chapter 1.
+## Chapter 1.
  * Components are ES6 classes that extend React.Component
     - Must have a render() method. only requirement
     - Whatever render() returns gets rendered to the page
@@ -48,7 +48,7 @@ _stop using for loops you java twit, JS is all about map, filter, reduce_
 * React uses the `key` propety to create unique bindings for each instance of a component.
     - _must find out more about this_
 
-#### How to deal with interaction?
+### How to deal with interaction?
 -----
 * Functions can be passed down to children as props.
     - When a child needs to let a parent know that an event was triggered the child should call the function.
@@ -66,7 +66,7 @@ class Product extends React.Component {
 }
 ```
 
-#### How to handle state?
+### How to handle state?
 _one of the benefits of React is that a change to state automatically re-renders for us, however, this means we must handle state the React way_
 
 -----
