@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Fullstack React Ch. 1 Notes"
-date:   2020-06-03
+title:  "The biggest misconception about Bitcoin Mining"
+date:   2021-01-03
 ---
 
 Miners’ role in Bitcoin is not to verify blocks. Users in the network verify blocks. I often see the same language circulating in news articles or videos suggesting miners “verify transactions, much like banks” or miners solve, “really hard math problems to keep Bitcoin secure.”  I don’t believe anyone writing these articles intends to misinform, but they often leave their readers with a sense that power in the Bitcoin network resides with miners and the rest of the network depends desperately on the miners and their super computers to solve hard math problems to verify the integrity of all transaction on the blockchain. In reality the Bitcoin miners by themselves have little to no power because they have to prove every single thing they do. Normal users in the Bitcoin network *actual* verify the miners work.  
