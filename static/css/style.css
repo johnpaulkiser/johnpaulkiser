@@ -70,7 +70,13 @@ pre, code {
     white-space: pre-wrap;
 }
 
+table {
+    table-layout: fixed;
+}
 
+td {
+    word-break: break-all;
+}
 
 .button-next {
     float: right;

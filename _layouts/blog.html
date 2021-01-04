@@ -14,7 +14,7 @@ title: Captain's Log
         <article>
         {% for post in site.posts %}
         <p style="float:right;">{{ post.date | date_to_long_string }}</p>
-            <h3><a href="{{site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            <h3><a href="{{  site.url }}{{ post.url }}">{{ post.title }}</a></h3>
         {% endfor %}
         </article>
       </div>
