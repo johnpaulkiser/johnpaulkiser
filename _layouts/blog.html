@@ -13,8 +13,10 @@ title: Captain's Log
       <div id="content">
         <article>
         {% for post in site.posts %}
-        <p style="float:right;">{{ post.date | date_to_long_string }}</p>
+          <div class="log-list">
             <h3><a href="{{  site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.date | date_to_long_string }}</p>
+          </div>
         {% endfor %}
         </article>
       </div>

@@ -1,3 +1,8 @@
+
+* {
+    font-size: 17px;
+}
+
 h1 {
     margin: 0;
     font-family: "Roboto Slab", serif;
@@ -7,6 +12,7 @@ h1 {
 h2 {
     font-family: "Roboto Slab", serif;
     font-weight: 300;
+    font-size: 1.6em;
 }
 
 a {
@@ -53,6 +59,16 @@ article {
 
 .article-content>p{
     line-height: 1.7;
+}
+
+.log-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-list > p {
+    font-size: .7em;
 }
 
 button {
