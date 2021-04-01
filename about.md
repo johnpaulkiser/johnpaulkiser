@@ -13,7 +13,7 @@ _Software developer - Interested in Bitcoin, & all things JavaScript._
 <br />
 ### 🛠 I'm currently a Software Developer at Hypersign in Spartanburg, SC, where I work at all levels of the stack.
 
-### In my free time I'm Biking🚲, Running👟, or Drumming🥁
+### In my free time I'm 🚲Biking, 👟Running, or 🥁Drumming.
 
 
 
