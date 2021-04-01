@@ -9,11 +9,11 @@ permalink: /about/
 
 -----
 <br />
-_Software developer, Bitcoin & open source enthusiast, drummer, and in desperate need of a mentor._
+_Software developer - Interested in Bitcoin, & all things JavaScript._
 <br />
-### 🎓 I'm currently finishing my BS in CS at USC Upstate in Spartanburg, SC, where I tutor programming and head the Computer Science Club.
+### 🛠 I'm currently a Software Developer at Hypersign in Spartanburg, SC, where I work at all levels of the stack.
 
-### In my free time I'm working on *[StreamerCap](https://streamercap.com)*, a small web app that aggregates gaming livestreams from different sites to make the best streamers accessible from one place.
+### In my free time I'm Biking🚲, Running👟, or Drumming🥁
 
 
 
@@ -23,7 +23,7 @@ _Software developer, Bitcoin & open source enthusiast, drummer, and in desperate
 ------
 
 # about this site
-* made with jekyll on github pages
+* made with [jekyll](https://jekyllrb.com/) on [github](https://github.com/johnpaulkiser/johnpaulkiser) pages
 * using [water.css](https://kognise.github.io/water.css/) for colors and theme
 * using [blocks.css](https://thesephist.github.io/blocks.css/) for the <span class="block inline accent"> buttons </span> 
 
