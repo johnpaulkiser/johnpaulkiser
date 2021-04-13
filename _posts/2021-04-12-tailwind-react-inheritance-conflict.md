@@ -9,7 +9,7 @@ I often find myself running into a specific problem when building Tailwind style
 ### The problem:
 Imagine building out a general `<Card />` component with a border and some padding. It might look something like this: 
 
-```javascript
+{% highlight jsx %}
 function Card({ className="", children, ...rest }) {
   return (
     <div {...rest} className={`p-8 border-2 rounded bg-white ${className}`}>
@@ -17,7 +17,8 @@ function Card({ className="", children, ...rest }) {
     </div>
   );
 }
-```
+{% endhighlight %}
+
 
 Using the  `<Card />` looks like this:
 
