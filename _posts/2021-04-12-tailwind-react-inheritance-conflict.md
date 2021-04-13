@@ -6,7 +6,7 @@ date:   2020-06-03
 
 I often find myself running into a specific problem when building Tailwind styled components in React. I want to style a component, but, on specific usage of that component, I want to override styles *without* editing the underlying styled component.  
 
-## The problem:
+### The problem:
 Imagine building out a general `<Card />` component with a border and some padding. It might look something like this: 
 
 ```javascript
@@ -22,21 +22,21 @@ function Card({ className="", children, ...rest }) {
 Using the  `<Card />` looks like this:
 
 ```html
-    <Card>
-      <div>
-        etc...
-      </div>
-    </Card>
+<Card>
+  <div>
+    etc... 
+  </div>
+</Card>
 ```
 
 To add styles to the `<Card />` all you need to do is pass them in a string to the `className` prop. 
 
 ```html
-    <Card className="text-green-600">
-      <div>
-        etc...
-      </div>
-    </Card>
+<Card className="text-green-600">
+  <div>
+    etc...
+  </div>
+</Card>
 ```
 
 Cool, right?
@@ -113,5 +113,5 @@ If you guessed 0 again you are right. 👍
 So what’s the solution?
 
 
-## The solution
+### The solution
 Coming soon…
