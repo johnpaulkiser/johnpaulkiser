@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tailwind conflicting class precedence issues in React components"
-date:   2020-06-03
+date:   2021-04-12
 ---
 
 I often find myself running into a specific problem when building Tailwind styled components in React. I want to style a component, but, on specific usage of that component, I want to override styles *without* editing the underlying styled component.  
