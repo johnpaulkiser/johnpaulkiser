@@ -1,3 +1,3 @@
-export default function () {
-    return "YO"
+export default function func() {
+  return 'YO'
 }
